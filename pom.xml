@@ -238,5 +238,18 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses>
+<distributionManagement>
+    <repository>
+         <id>releases</id>
+         <name>Releases</name>
+         <url>http://http://localhost:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+         <id>snapshots</id>
+         <name>Snapshots</name>
+         <url>http://http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
 </project>
