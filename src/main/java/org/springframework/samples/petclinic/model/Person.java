@@ -32,11 +32,6 @@ public class Person extends BaseEntity {
     @NotEmpty
     private String firstName;
 
-    @Column(name = "middle_name")
-    @NotEmpty
-    private String middleName;
-
-
     @Column(name = "last_name")
     @NotEmpty
     private String lastName;
